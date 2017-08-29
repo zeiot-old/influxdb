@@ -19,11 +19,7 @@ Or build :
 
 # Supported tags
 
-* 1.5.x: [![](https://images.microbadger.com/badges/version/zeiot/rpi-influxdb:1.5.0.svg)](https://microbadger.com/images/zeiot/rpi-influxdb:1.5.0 "Get your own version badge on microbadger.com")
-* 1.4.x: [![](https://images.microbadger.com/badges/version/zeiot/rpi-influxdb:1.4.1.svg)](https://microbadger.com/images/zeiot/rpi-influxdb:1.4.1 "Get your own version badge on microbadger.com")
 * 1.3.x: [![](https://images.microbadger.com/badges/version/zeiot/rpi-influxdb:1.3.1.svg)](https://microbadger.com/images/zeiot/rpi-influxdb:1.3.1 "Get your own version badge on microbadger.com")
-* 1.2.x: [![](https://images.microbadger.com/badges/version/zeiot/rpi-influxdb:1.2.3.svg)](https://microbadger.com/images/zeiot/rpi-influxdb:1.2.3 "Get your own version badge on microbadger.com")
-* 1.1.x: [![](https://images.microbadger.com/badges/version/zeiot/rpi-influxdb:1.1.3.svg)](https://microbadger.com/images/zeiot/rpi-influxdb:1.1.3 "Get your own version badge on microbadger.com")
 
 
 ## License
