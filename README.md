@@ -1,6 +1,6 @@
 # RPI InfluxDB
 
-* Master : [![Circle CI](https://circleci.com/gh/zeiot/rpi-influxdb/tree/master.svg?style=svg)](https://circleci.com/gh/zeiot/rpi-influxdb/tree/master) [![Build Status](https://travis-ci.org/zeiot/rpi-influxdb.svg?branch=master)](https://travis-ci.org/zeiot/rpi-influxdb)
+* Master: [![coverage report](https://gitlab.com/zeiot/rpi-influxdb/badges/master/coverage.svg)](https://gitlab.com/zeiot/rpi-influxdb/commits/master)
 
 Docker image of [InfluxDB][] to use on a [Raspberry PI][].
 
