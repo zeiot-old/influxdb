@@ -24,4 +24,3 @@ VOLUME     [ "/etc/influxdb", "/var/lib/influxdb", ]
 
 ENTRYPOINT [ "/usr/bin/influxd" ]
 
-CMD        [ "version" ]
