@@ -36,13 +36,13 @@ help:
 
 .PHONY: build
 build:
-	@echo -e "$(OK_COLOR)[$(APP)] build $(NAMESPACE)/$(IMAGE):$(VERSION)$(NO_COLOR)"
-	@$(DOCKER) build -t $(NAMESPACE)/$(IMAGE):${VERSION} $(version)
+	@echo -e "$(OK_COLOR)[$(APP)] build $(NAMESPACE)/$(IMAGE):v$(VERSION)$(NO_COLOR)"
+	@$(DOCKER) build -t $(NAMESPACE)/$(IMAGE):v${VERSION} $(version)
 
 .PHONY: run
 run:
-	@echo -e "$(OK_COLOR)[$(APP)] run $(NAMESPACE)/$(IMAGE):$(VERSION)$(NO_COLOR)"
-	@$(DOCKER) run --rm=true -p 8086:8086 $(NAMESPACE)/$(IMAGE):$(VERSION)
+	@echo -e "$(OK_COLOR)[$(APP)] run $(NAMESPACE)/$(IMAGE):v$(VERSION)$(NO_COLOR)"
+	@$(DOCKER) run --rm=true -p 8086:8086 $(NAMESPACE)/$(IMAGE):v$(VERSION)
 
 .PHONY: login
 login:
@@ -50,5 +50,5 @@ login:
 
 .PHONY: publish
 publish:
-	@echo -e "$(OK_COLOR)[$(APP)] Publish $(NAMESPACE)/$(IMAGE):$(VERSION)$(NO_COLOR)"
-	@$(DOCKER) push $(NAMESPACE)/$(IMAGE):$(VERSION)
+	@echo -e "$(OK_COLOR)[$(APP)] Publish $(NAMESPACE)/$(IMAGE):v$(VERSION)$(NO_COLOR)"
+	@$(DOCKER) push $(NAMESPACE)/$(IMAGE):v$(VERSION)
