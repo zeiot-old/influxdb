@@ -17,7 +17,12 @@
 # DESCRIPTION:    zeiot/rpi-influxdb
 
 FROM resin/armv7hf-debian:stretch
-MAINTAINER Nicolas Lamirault <nicolas.lamirault@gmail.com>
+
+LABEL summary="InfluxDB for ARM" \
+      description="InfluxDB for ARM devices" \
+      name="zeiot/rpi-influxdb" \
+      url="https://github.com/zeiot/rpi-influxdb" \
+      maintainer="Nicolas Lamirault <nicolas.lamirault@gmail.com>"
 
 ENV INFLUXDB_VERSION 1.5.2
 
