@@ -40,7 +40,7 @@ RUN [ "cross-build-end" ]
 
 EXPOSE      8086
 
-USER        nobody
+# USER        nobody
 
 VOLUME      [ "/etc/influxdb", "/var/lib/influxdb", ]
 
