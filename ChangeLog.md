@@ -1,6 +1,11 @@
 RPI InfluxDB ChangeLog
 =================================
 
+
+# Version 1.3.0 (12/17/2018)
+
+- Use 1.7.0 release
+
 # Version 1.2.0 (12/17/2018)
 
 - Use 1.6.4 release

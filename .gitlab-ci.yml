@@ -19,7 +19,7 @@ services:
 
 variables:
   DOCKER_DRIVER: overlay2
-  APP_VERSION: "1.6"
+  APP_VERSION: "1.7"
 
 before_script:
   - docker info
