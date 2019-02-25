@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# VERSION 1.7.2
+# VERSION 1.7.4
 # AUTHOR:         Nicolas Lamirault <nicolas.lamirault@gmail.com>
 # DESCRIPTION:    zeiot/rpi-influxdb
 
@@ -21,10 +21,10 @@ FROM resin/armv7hf-debian:stretch
 LABEL summary="InfluxDB for ARM" \
       description="InfluxDB for ARM devices" \
       name="zeiot/influxdb" \
-      url="https://github.com/zeiot/rpi-influxdb" \
+      url="https://github.com/zeiot/influxdb" \
       maintainer="Nicolas Lamirault <nicolas.lamirault@gmail.com>"
 
-ENV INFLUXDB_VERSION 1.7.2
+ENV INFLUXDB_VERSION 1.7.4
 
 ADD https://dl.influxdata.com/influxdb/releases/influxdb-${INFLUXDB_VERSION}_linux_armhf.tar.gz /influxdb.tar.gz
 
@@ -40,7 +40,7 @@ RUN [ "cross-build-end" ]
 
 EXPOSE      8086
 
-# USER        nobody
+USER        nobody
 
 VOLUME      [ "/etc/influxdb", "/var/lib/influxdb", ]
 
